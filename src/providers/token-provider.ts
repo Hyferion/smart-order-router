@@ -636,6 +636,14 @@ export const WBTC_MOONBEAM = new Token(
   'Wrapped BTC bridged using Multichain'
 );
 
+export const EPI_SWISSDLT = new Token(
+  ChainId.SWISSDLT,
+  '0x89003595E33c6874f1add04F9cF0e6f8669F2b48',
+  18,
+  'EPDT',
+  'EPI'
+);
+
 export class TokenProvider implements ITokenProvider {
   constructor(
     private chainId: ChainId,

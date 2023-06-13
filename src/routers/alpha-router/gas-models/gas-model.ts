@@ -18,7 +18,7 @@ import {
   DAI_RINKEBY_1,
   DAI_RINKEBY_2,
   DAI_ROPSTEN,
-  DAI_SEPOLIA,
+  DAI_SEPOLIA, EPI_SWISSDLT,
   USDC_ARBITRUM,
   USDC_ARBITRUM_GOERLI,
   USDC_BSC,
@@ -43,7 +43,7 @@ import {
   USDT_OPTIMISM_GOERLI,
   USDT_OPTIMISTIC_KOVAN,
   USDT_ROPSTEN,
-  WBTC_GÖRLI,
+  WBTC_GÖRLI
 } from '../../../providers/token-provider';
 import { IV2PoolProvider } from '../../../providers/v2/pool-provider';
 import { ArbitrumGasData, IL2GasDataProvider, OptimismGasData, } from '../../../providers/v3/gas-data-provider';
@@ -85,6 +85,7 @@ export const usdGasTokensByChain: { [chainId in ChainId]?: Token[] } = {
   [ChainId.GNOSIS]: [USDC_ETHEREUM_GNOSIS],
   [ChainId.MOONBEAM]: [USDC_MOONBEAM],
   [ChainId.BSC]: [USDT_BSC, USDC_BSC, DAI_BSC],
+  [ChainId.SWISSDLT]: [EPI_SWISSDLT]
 };
 
 export type L1ToL2GasCosts = {

@@ -198,6 +198,9 @@ const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDC_MOONBEAM,
     WBTC_MOONBEAM,
   ],
+  [ChainId.SWISSDLT]: [
+    WRAPPED_NATIVE_CURRENCY[ChainId.SWISSDLT],
+  ],
 };
 
 /**

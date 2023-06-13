@@ -75,7 +75,7 @@ import { getBalanceAndApprove } from '../../../test-util/getBalanceAndApprove';
 import { WHALES } from '../../../test-util/whales';
 
 const FORK_BLOCK = 16075500;
-const UNIVERSAL_ROUTER_ADDRESS = UNIVERSAL_ROUTER_ADDRESS_BY_CHAIN(1);
+const UNIVERSAL_ROUTER_ADDRESS = UNIVERSAL_ROUTER_ADDRESS_BY_CHAIN(94);
 const SLIPPAGE = new Percent(15, 100); // 5% or 10_000?
 
 const checkQuoteToken = (

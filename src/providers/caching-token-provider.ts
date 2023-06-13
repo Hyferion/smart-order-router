@@ -159,6 +159,9 @@ export const CACHE_SEED_TOKENS: {
     BTC: BTC_BSC,
     WBNB: WRAPPED_NATIVE_CURRENCY[ChainId.BSC],
   },
+  [ChainId.SWISSDLT]: {
+    WBCTS: WRAPPED_NATIVE_CURRENCY[ChainId.SWISSDLT],
+  },
 
   // Currently we do not have providers for Moonbeam mainnet or Gnosis testnet
 };
