@@ -1,0 +1,6 @@
+src/
+cli/
+bin/
+.github/
+.vscode/
+test/
