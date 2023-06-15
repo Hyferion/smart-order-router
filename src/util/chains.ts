@@ -498,7 +498,7 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId in ChainId]: Token } = {
     'Wrapped GLMR'
   ),
   [ChainId.SWISSDLT]: new Token(
-    1,
+    ChainId.SWISSDLT,
     '0x4C9204BE7d41E8b1d0f8025A60110d866C0574Ad',
     18,
     'WBCTS',
